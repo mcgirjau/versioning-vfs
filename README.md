@@ -19,7 +19,7 @@ directory, one can run the following terminal command:
 find path/to/stg/versions -name "*" | grep -E "filename\.ext,[0-9]+$" | xargs cp -t .
 ```
 
-Specifically from within the `sysproj-8` root project directory, the above command
+Specifically from within the root project directory, the above command
 can be simplified as:
 
 ```{sh}
