@@ -1,6 +1,6 @@
 # Versioning Virtual File System
 
-An implementation of a versioning virtual file system using FUSE
+An implementation of a versioning virtual file system using FUSE.
 
 This VFS implementation splits the `stg` directory into two subdirectories: 
 `storage` and `versions`. The `mnt` directory has been set to only mirror the
